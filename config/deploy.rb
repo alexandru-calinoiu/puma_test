@@ -1,7 +1,7 @@
 set :application, 'puma_test'
 set :repo_url, 'git@github.com:balauru/puma_test.git'
 
-set :rvm_ruby_version, 'ruby-2.0.0-p353@puma_test'
+set :rvm_ruby_version, 'ruby-2.0.0-p353@puma_sample'
 set :rvm_type, :system
 
 role :web, %w(deploy@50.97.218.107)
